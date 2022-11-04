@@ -1,1 +1,1 @@
-Vídeos per fer l'execució de car-tracking.py
+Adjuntar en aquesta carpeta els vídeos dels quals es volen fer el tracking (ejecutant el script car-tracking.py)
