@@ -261,6 +261,6 @@ class Tracker:
 
 for path in ["videos/output7.mp4", "videos/output2.mp4", "videos/output3.mp4"]:
     print(f'\n\nVIDEO: {path}')
-    tracking = Tracker(path,fps = 1, output_path="output_videos/output2_long.mp4")
+    tracking = Tracker(path,fps = 1, output_path=f"output_videos/{path}")
     tracking.generator_optimized(sample_rate = 5, epsilon = 0.5, max_not_appear = 2)
     
